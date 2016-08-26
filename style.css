@@ -1,0 +1,84 @@
+/*
+Theme Name: Mad Train
+Theme URI: http://wordpress.org/themes/madtrain
+Author: Pinak Beth
+Author URI: http://rakusu.me/
+Description: A simple theme based on Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, right-sidebar, blog, black, white, gray
+Text Domain: madtrain
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face { font-family: "Light Up The World"; src: url('fonts/lutw.ttf') format('truetype'); }
+@font-face { font-family: "Flowerchild"; src: url('fonts/ft.ttf') format('truetype'); }
+
+body {
+    background-color: #353535;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.container .jumbotron {
+    border-radius: 0;
+    background: url('images/herounit.jpg') center 40% no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    color: #FFF;
+    text-shadow: 0 0 10px rgb(226, 141, 217);
+    -webkit-text-shadow: 0 0 10px rgb(226, 141, 217);
+    -moz-text-shadow: 0 0 10px rgb(226, 141, 217);
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.jumbotron h1 {
+    font-family: "Light Up The World", serif;
+}
+
+.jumbotron h2 {
+    font-family: 'Flowerchild', serif;
+}
+
+.content-wrapper, .footer-wrapper {
+    background-color: #F5F5F5;
+}
+
+.footer-wrapper {
+    background-color: #F9F9F9;
+    border-top: 1px solid #DDD;
+}
+
+main > article, aside > section, main > section {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+aside ul {
+    padding-left: 15px;
+}
+
+footer section {
+    padding: 15px;
+}
